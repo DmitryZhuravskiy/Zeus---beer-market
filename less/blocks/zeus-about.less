@@ -1,0 +1,105 @@
+.about {
+	position: relative;
+	min-height: 605px;
+	background-color: #1a1c0f;
+	padding-top: 100px;
+	margin-top: -115px;
+
+	.about__joy {
+		padding-left: 245px;
+		min-height: 350px;
+
+		.joy__text {
+			margin-bottom: 0px;
+		}
+	}
+
+	.joy__title,
+	.originality__title {
+		margin-bottom: 30px;
+		font-size: 72px;
+		font-weight: normal;
+		font-family: "Cinzel Decorative";
+		color: white;
+		text-transform: uppercase;
+		z-index: 5;
+	}
+
+	.joy__text,
+	.originality__text {
+		max-width: 700px;
+		font-size: 24px;
+		font-family: 'Amiri';
+		line-height: 48px;
+		color: #cdb378;
+		z-index: 5;
+	}
+	
+	.about__originality {
+		z-index: 20;
+		width: 1873px;
+		height: 495px;
+		padding-left: 245px;
+		padding-top: 220px;
+		background: url('../image/logo-in-main.png');
+		box-sizing: border-box;
+
+		.originality__title {
+			margin: 0;
+			margin-top: 00px;
+			font-family: 'Cinzel Decorative';
+			color: #cdb378;
+		}
+
+		.originality__text {
+			color: #b4ba98;
+			margin-bottom: 40px;
+		}
+
+		.originality__link {
+			display: block;
+			width: 225px;
+			padding: 21px 0;
+			box-sizing: border-box;
+			font-size: 16px;
+			font-family: 'Amiri Regular';
+			background: transparent;
+			color: #ffffff;
+			border: 2px #404429 solid;
+			text-transform: uppercase;
+			text-align: center;
+			text-decoration: none;
+			z-index: 10;
+
+			&:hover {
+				color: #cdb378;
+				border: 2px #ffffff solid;
+			}
+		}
+	}
+
+	.about__bottle {
+		position: absolute;
+		bottom: -280px;
+		right: 320px;
+		width: 420px;
+		height: 1076px;
+		background: url('../image/bottle.png');
+		z-index: 2;
+	}
+
+	.about__photo-of-man {
+		position: absolute;
+		top: -35px;
+		right: 0;
+		width: 589px;
+		height: 633px;
+		background: url('../image/background-first-main.jpg');
+		z-index: 2;
+	}
+
+	.joy__title,
+	.about__originality {
+		z-index: 30;
+	}
+}

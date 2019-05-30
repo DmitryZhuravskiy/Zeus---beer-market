@@ -1,0 +1,118 @@
+.page-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	min-width: 2000px;
+	min-height: 1175px;
+	background: #ffffff;
+	background-image: url("../image/background-header.jpg");
+
+	.header__logo {
+		width: 152px;
+		height: 163px;
+		margin: 0 auto;
+		margin-top: 120px;
+		margin-bottom: 145px;
+	}
+
+	.header__title {
+		position: relative;
+		width: 207px;
+		height: 46px;
+		margin: 0 auto;
+		margin-bottom: 16px;
+		font-size: 60px;
+		font-weight: 900;
+		font-family: 'Cinzel Decorative';
+		text-transform: uppercase;
+		color: #c5ac73;
+		text-align: center;
+		vertical-align: middle;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 15px;
+			left: -242px;
+			width: 242px;
+			height: 4px;
+			background-color: #cdb378;
+		}
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: 15px;
+			right: -242px;
+			width: 242px;
+			height: 4px;
+			background-color: #cdb378;
+		}
+	}
+
+	.header__text {
+		font-size: 36px;
+		font-family: 'Cinzel Decorative';
+		line-height: 60px;
+		text-align: center;
+		vertical-align: middle;
+		text-transform: uppercase;
+		color: white;
+	}
+
+	.header__text-author {
+		margin-bottom: 335px;
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: normal;
+		font-style: italic;
+		text-align: center;
+		color: #cdb378;
+	}
+
+	.header__scroll {
+		position: relative;
+		width: 150px;
+		margin: 0 auto;
+		font-size: 16px;
+		line-height: 20px;
+		font-style: italic;
+		color: #cdb378;
+		text-decoration: none;
+
+		&:before {
+			content: "";
+			position: absolute;
+			bottom: -14px;
+			left: 65px;
+			width: 8px;
+			height: 2px;
+			background: #cdb378;
+			transform: rotate(45deg);
+		}
+
+		&:after {
+			content: "";
+			position: absolute;
+			bottom: -14px;
+			left: 70px;
+			width: 8px;
+			height: 2px;
+			background: #cdb378;
+			transform: rotate(-45deg);
+		}
+
+		&:hover {
+			color: white;
+
+			&:after {
+				background: white;
+			}
+
+			&:before {
+				background: white;
+			}
+		}
+	}
+}

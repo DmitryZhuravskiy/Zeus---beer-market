@@ -1,0 +1,368 @@
+body {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Cinzel Regular", Arial, sans-serif;
+  color: #000;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #fbebea;
+  margin-right: -1px;
+  margin-left: -1px;
+  -webkit-box-sizing: padding-box;
+          box-sizing: padding-box;
+  overflow-x: hidden;
+  position: relative;
+  max-width: 2000px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  padding: 0 20px;
+  margin: 0;
+  -webkit-box-sizing: padding-box;
+          box-sizing: padding-box;
+}
+p {
+  font-family: "Amiri Regular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 32px;
+}
+p {
+  font-family: "Cinzel Regular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+h2 {
+  font-family: "Cinzel Decorative";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 34px;
+}
+.page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  min-width: 2000px;
+  min-height: 1175px;
+  background: #ffffff;
+  background-image: url("../image/background-header.jpg");
+}
+.page-header .header__logo {
+  width: 152px;
+  height: 163px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 145px;
+}
+.page-header .header__title {
+  position: relative;
+  width: 207px;
+  height: 46px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: 'Cinzel Decorative';
+  text-transform: uppercase;
+  color: #c5ac73;
+  text-align: center;
+  vertical-align: middle;
+}
+.page-header .header__title:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -242px;
+  width: 242px;
+  height: 4px;
+  background-color: #cdb378;
+}
+.page-header .header__title:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: -242px;
+  width: 242px;
+  height: 4px;
+  background-color: #cdb378;
+}
+.page-header .header__text {
+  font-size: 36px;
+  font-family: 'Cinzel Decorative';
+  line-height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: white;
+}
+.page-header .header__text-author {
+  margin-bottom: 335px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  color: #cdb378;
+}
+.page-header .header__scroll {
+  position: relative;
+  width: 150px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: italic;
+  color: #cdb378;
+  text-decoration: none;
+}
+.page-header .header__scroll:before {
+  content: "";
+  position: absolute;
+  bottom: -14px;
+  left: 65px;
+  width: 8px;
+  height: 2px;
+  background: #cdb378;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.page-header .header__scroll:after {
+  content: "";
+  position: absolute;
+  bottom: -14px;
+  left: 70px;
+  width: 8px;
+  height: 2px;
+  background: #cdb378;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.page-header .header__scroll:hover {
+  color: white;
+}
+.page-header .header__scroll:hover:after {
+  background: white;
+}
+.page-header .header__scroll:hover:before {
+  background: white;
+}
+.about {
+  position: relative;
+  min-height: 605px;
+  background-color: #1a1c0f;
+  padding-top: 100px;
+  margin-top: -115px;
+}
+.about .about__joy {
+  padding-left: 245px;
+  min-height: 350px;
+}
+.about .about__joy .joy__text {
+  margin-bottom: 0px;
+}
+.about .joy__title,
+.about .originality__title {
+  margin-bottom: 30px;
+  font-size: 72px;
+  font-weight: normal;
+  font-family: "Cinzel Decorative";
+  color: white;
+  text-transform: uppercase;
+  z-index: 5;
+}
+.about .joy__text,
+.about .originality__text {
+  max-width: 700px;
+  font-size: 24px;
+  font-family: 'Amiri';
+  line-height: 48px;
+  color: #cdb378;
+  z-index: 5;
+}
+.about .about__originality {
+  z-index: 20;
+  width: 1873px;
+  height: 495px;
+  padding-left: 245px;
+  padding-top: 220px;
+  background: url('../image/logo-in-main.png');
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.about .about__originality .originality__title {
+  margin: 0;
+  margin-top: 00px;
+  font-family: 'Cinzel Decorative';
+  color: #cdb378;
+}
+.about .about__originality .originality__text {
+  color: #b4ba98;
+  margin-bottom: 40px;
+}
+.about .about__originality .originality__link {
+  display: block;
+  width: 225px;
+  padding: 21px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Amiri Regular';
+  background: transparent;
+  color: #ffffff;
+  border: 2px #404429 solid;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  z-index: 10;
+}
+.about .about__originality .originality__link:hover {
+  color: #cdb378;
+  border: 2px #ffffff solid;
+}
+.about .about__bottle {
+  position: absolute;
+  bottom: -280px;
+  right: 320px;
+  width: 420px;
+  height: 1076px;
+  background: url('../image/bottle.png');
+  z-index: 2;
+}
+.about .about__photo-of-man {
+  position: absolute;
+  top: -35px;
+  right: 0;
+  width: 589px;
+  height: 633px;
+  background: url('../image/background-first-main.jpg');
+  z-index: 2;
+}
+.about .joy__title,
+.about .about__originality {
+  z-index: 30;
+}
+.slogan {
+  min-height: 884px;
+  margin-top: -50px;
+  background: url('../image/guy-with-water.jpg');
+}
+.slogan .slogan__title {
+  padding-top: 325px;
+  width: 675px;
+  margin-left: 1185px;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 900;
+  font-family: "Cinzel Decorative";
+  text-transform: uppercase;
+  color: #1a1c0f;
+  text-align: left;
+}
+.page-footer {
+  position: relative;
+  min-height: 5267px;
+  margin-top: -140px;
+  background: url('../image/background-footer.jpg');
+}
+.page-footer .footer__quality {
+  width: 100%;
+  margin-top: 140px;
+}
+.page-footer .footer__quality .quality__title {
+  max-width: 666px;
+  padding: 150px 0 45px 150px;
+  margin: 0;
+  font-family: 'Cinzel Decorative';
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 72px;
+  color: #cdb378;
+  text-align: left;
+}
+.page-footer .footer__quality .quality__first-text {
+  max-width: 666px;
+  padding-left: 150px;
+  margin-bottom: 45px;
+  font-size: 24px;
+  line-height: 48px;
+  color: #b4ba98;
+}
+.page-footer .footer__quality .quality__second-text {
+  max-width: 666px;
+  padding-left: 150px;
+  margin-bottom: 310px;
+  font-size: 24px;
+  line-height: 48px;
+  color: #b4ba98;
+}
+.page-footer .footer__start-journey .start-journey__title {
+  margin-top: 45px;
+  font-weight: 400;
+  font-family: "Cinzel Decorative";
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #cdb378;
+}
+.page-footer .footer__start-journey .start-journey__text {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 47px;
+  font-size: 24px;
+  line-height: 48px;
+  font-family: "Amiri";
+  text-align: center;
+  color: #b4ba98;
+}
+.page-footer .footer__start-journey .start-journey__link {
+  display: block;
+  width: 225px;
+  padding: 21px 0;
+  margin: 0 auto;
+  border: 2px #404429 solid;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: transparent;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.page-footer .footer__start-journey .start-journey__link:hover {
+  color: #cdb378;
+  border: 2px #ffffff solid;
+}
+.page-footer img {
+  position: absolute;
+  top: -135px;
+  right: 0;
+  width: 980px;
+  height: 1013px;
+}
+/*# sourceMappingURL=styles.css.map */
